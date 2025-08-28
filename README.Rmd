@@ -1,0 +1,9 @@
+## DataFutBrasileiro
+
+Este projeto foi criado para extrair insights de dados sobre catões, gols e estisticas de partidas do campeonato brasileiro.
+
+### Arquivos
+
+O dataset deste projeto pode ser baixado em:
+
+-   [Kaggle](<https://www.kaggle.com/datasets/adaoduque/campeonato-brasileiro-de-futebol/data>)
