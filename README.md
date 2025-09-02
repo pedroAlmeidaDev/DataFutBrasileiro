@@ -19,15 +19,11 @@ Este projeto foi criado para extrair insights de dados sobre cartões, gols e es
 ## ✅ Gráficos prontos!
 
 <p align="center">
-
 <img src="GráficoEmBarra.png" alt="Gráfico em Barra" width="80%"/>
-
 </p>
 
 <p align="center">
-
 <img src="GráficoEmLinha.png" alt="Gráfico em Linha" width="80%"/>
-
 </p>
 
 ------------------------------------------------------------------------
@@ -35,13 +31,18 @@ Este projeto foi criado para extrair insights de dados sobre cartões, gols e es
 ## 🛠 Ferramentas Utilizadas
 
 <p align="center">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg" alt="R" width="60px" height="60px"/>
-
+<img align ="center" alt="html" height="60px" width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg">
 </p>
 
 ------------------------------------------------------------------------
 
-## 👷 Como rodar
+<h1>👷 Como rodar<h1>
+<h3><li>Clonar o repositório.
 
-1.  **Clonar o repositório:** \`\`\`bash git clone <https://github.com/pedroAlmeidaDev/DataFutBrasileiro.git>
+git clone https://github.com/pedroAlmeidaDev/DataFutBrasileiro.git
+
+<li>Entrar no RStudio(Posit).
+
+<li>Criar um (New Project).
+
+<li>Dentro do novo projeto, abrir a pasta do arquivo em (OpenFile).<h3>
