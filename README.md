@@ -36,7 +36,8 @@ Este projeto foi criado para extrair insights de dados sobre cartões, gols e es
 
 ------------------------------------------------------------------------
 
-<h1>👷 Como rodar<h1>
+## 👷 Como rodar
+
 <h3><li>Clonar o repositório.
 
 git clone https://github.com/pedroAlmeidaDev/DataFutBrasileiro.git
