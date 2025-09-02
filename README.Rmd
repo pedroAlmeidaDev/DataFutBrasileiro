@@ -1,9 +1,25 @@
-## DataFutBrasileiro
+# DataFutBrasileiro
+<h3>Neste projeto serão extraídos insights e elaborados gráficos.<h3>
+<hr>
+<h1>🖥 Sobre o projeto<h1>
+<h3>Este projeto foi criado para extrair insights de dados sobre catões, gols e estisticas de partidas do campeonato brasileiro.<h3>
+<hr>
+<h1>DataSet utilizado>
+<h3>-   [Kaggle](https://www.kaggle.com/datasets/adaoduque/campeonato-brasileiro-de-futebol/data).<h3>
+<h1>✅ Gráficos prontos!<h1>
+<img align= "center" alt="homepage" height="90%" width="80%" src="GráficoEmBarra.png" style="max-width:100%;">
+<img align= "center" alt="homepage" height="90%" width="80%" src="GráficoEmLinha.png" style="max-width:100%;">
+<hr>
+<h1>🛠 Ferramentas Utilizadas<h1>
+<img align ="center" alt="html" height="60px" width="60px" src=" <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg"/> style="max-width:100%;">
+<hr>
+<h1>👷 Como rodar<h1>
+<h3><li>Clonar o repositório.
 
-Este projeto foi criado para extrair insights de dados sobre catões, gols e estisticas de partidas do campeonato brasileiro.
+git clone https://github.com/pedroAlmeidaDev/DataFutBrasileiro.git
 
-### Arquivos
+<li>Entrar no RStudio(Posit).
 
-O dataset deste projeto pode ser baixado em:
+<li>Criar um (New Project)".
 
--   [Kaggle](https://www.kaggle.com/datasets/adaoduque/campeonato-brasileiro-de-futebol/data)
+<li>Dentro do novo projeto, abrir a pasta do arquivo em (OpenFile)<h3>
