@@ -1,25 +1,39 @@
-# DataFutBrasileiro
-<h3>Neste projeto serão extraídos insights e elaborados gráficos.<h3>
-<hr>
-<h1>🖥 Sobre o projeto<h1>
-<h3>Este projeto foi criado para extrair insights de dados sobre catões, gols e estisticas de partidas do campeonato brasileiro.<h3>
-<hr>
-<h1>DataSet utilizado>
-<h3>-   [Kaggle](https://www.kaggle.com/datasets/adaoduque/campeonato-brasileiro-de-futebol/data).<h3>
-<h1>✅ Gráficos prontos!<h1>
-<img align= "center" alt="homepage" height="90%" width="80%" src="GráficoEmBarra.png" style="max-width:100%;">
-<img align= "center" alt="homepage" height="90%" width="80%" src="GráficoEmLinha.png" style="max-width:100%;">
-<hr>
-<h1>🛠 Ferramentas Utilizadas<h1>
-<img align ="center" alt="html" height="60px" width="60px" src=" <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg"/> style="max-width:100%;">
-<hr>
-<h1>👷 Como rodar<h1>
-<h3><li>Clonar o repositório.
+# 📊 DataFutBrasileiro
 
-git clone https://github.com/pedroAlmeidaDev/DataFutBrasileiro.git
+Neste projeto serão extraídos insights e elaborados gráficos.  
 
-<li>Entrar no RStudio(Posit).
+---
 
-<li>Criar um (New Project)".
+## 🖥 Sobre o projeto
+Este projeto foi criado para extrair insights de dados sobre cartões, gols e estatísticas de partidas do campeonato brasileiro.  
 
-<li>Dentro do novo projeto, abrir a pasta do arquivo em (OpenFile)<h3>
+---
+
+## 📂 DataSet utilizado
+- [Kaggle - Campeonato Brasileiro de Futebol](https://www.kaggle.com/datasets/adaoduque/campeonato-brasileiro-de-futebol/data)
+
+---
+
+## ✅ Gráficos prontos!
+<p align="center">
+  <img src="GráficoEmBarra.png" alt="Gráfico em Barra" width="80%">
+</p>
+
+<p align="center">
+  <img src="GráficoEmLinha.png" alt="Gráfico em Linha" width="80%">
+</p>
+
+---
+
+## 🛠 Ferramentas Utilizadas
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg" alt="R" width="60px" height="60px"/>
+</p>
+
+---
+
+## 👷 Como rodar
+
+1. **Clonar o repositório:**
+   ```bash
+   git clone https://github.com/pedroAlmeidaDev/DataFutBrasileiro.git
