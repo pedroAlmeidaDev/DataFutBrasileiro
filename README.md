@@ -29,6 +29,7 @@ Este projeto foi criado para extrair insights de dados sobre cartões, gols e es
 <p align="center">
 <img src="GráficoDeDispersão.png" alt="Gráfico de Dispersão" width="80%"/>
 </p>
+
 ------------------------------------------------------------------------
 
 ## 🛠 Ferramentas Utilizadas
