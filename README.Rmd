@@ -18,30 +18,24 @@ Este projeto foi criado para extrair insights de dados sobre cartões, gols e es
 
 ## ✅ Gráficos prontos!
 
-<p align="center">
-
 <img src="GráficoEmBarra.png" alt="Gráfico em Barra" width="80%"/>
-
-</p>
-
-<p align="center">
 
 <img src="GráficoEmLinha.png" alt="Gráfico em Linha" width="80%"/>
 
-</p>
+<img src="GráficoDeDispersão.png" alt="Gráfico de Dispersão" width="80%"/>
 
 ------------------------------------------------------------------------
 
 ## 🛠 Ferramentas Utilizadas
 
-<p align="center">
-
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg" alt="R" width="60px" height="60px"/>
-
-</p>
 
 ------------------------------------------------------------------------
 
 ## 👷 Como rodar
 
-1.  **Clonar o repositório:** \`\`\`bash git clone <https://github.com/pedroAlmeidaDev/DataFutBrasileiro.git>
+1.  Clonar o repositório.git clone <https://github.com/pedroAlmeidaDev/DataFutBrasileiro.git>
+
+2.  Entrar no RStudio(Posit).Criar um (New Project).
+
+3.  Dentro do novo projeto, abrir a pasta do arquivo em (OpenFile).

@@ -47,6 +47,8 @@ ggplot(data = MediaGolsMarcados, aes(x = clube, y = mean_gols, fill = clube)) +
   ) +
   theme_minimal()
 
+########################################################################
+
 #Média de gols por partida do Flamengo nos anos de 2020 a 2024
 MediaGolsMarcadosFlamengo <- campeonato_brasileiro_gols %>%
   inner_join(campeonato_brasileiro_full, by = c("partida_id" = "ID")) %>%
@@ -69,5 +71,43 @@ ggplot(data = MediaGolsMarcadosFlamengo, aes(x = factor(ano), y = mean_gols, gro
     subtitle = "Valores médios de gols por partida, de 2020 a 2024",
     x = "Ano",
     y = "Média de gols"
+  ) +
+  theme_minimal()
+
+########################################################################
+
+#Times que recebem mais cartões vermelhos vencem menos partidas?
+
+#Cartões vermelhos por time em 2024
+Vermelhos_por_time <- campeonato_brasileiro_cartoes %>%
+  inner_join(campeonato_brasileiro_full, by = c("partida_id" = "ID")) %>%
+  filter(cartao == "Vermelho" & year(data) == 2024) %>%
+  group_by(clube) %>%
+  summarise(total_vermelhos = n(), .groups = "drop") %>%
+  arrange(desc(total_vermelhos))
+
+#Vitórias por time em 2024
+Vitorias_por_time <- campeonato_brasileiro_full %>%
+  filter(vencedor != "-" & year(data) == 2024) %>%
+  group_by(vencedor) %>%
+  summarise(total_vitorias = n(), .groups = "drop") %>%
+  arrange(desc(total_vitorias)) %>%
+  rename(clube = vencedor)
+
+#Juntar cartões e vitórias
+Dados_resumo <- Vermelhos_por_time %>%
+  inner_join(Vitorias_por_time, by = "clube")
+
+#Gráfico de dispersão
+ggplot(Dados_resumo, aes(x = total_vermelhos, y = total_vitorias)) +
+  geom_point(color = "red", size = 3, alpha = 0.7) +
+  geom_smooth(method = "lm", se = FALSE, color = "black", linetype = "dashed") +
+  geom_text(aes(label = clube), 
+            vjust = -1.0, 
+            size = 4) +
+  labs(
+    title = "Em 2024, os times que receberam mais cartões vermelhos venceram menos partidas?",
+    x = "Total de Cartões Vermelhos",
+    y = "Total de Vitórias"
   ) +
   theme_minimal()
